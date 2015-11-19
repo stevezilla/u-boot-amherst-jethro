@@ -9,12 +9,6 @@
 #ifndef __MX6QSABRESD_CONFIG_H
 #define __MX6QSABRESD_CONFIG_H
 
-#ifdef CONFIG_SPL
-#define CONFIG_SPL_LIBCOMMON_SUPPORT
-#define CONFIG_SPL_MMC_SUPPORT
-#include "imx6_spl.h"
-#endif
-
 #define CONFIG_MACH_TYPE	3980
 #define CONFIG_MXC_UART_BASE	UART1_BASE
 #define CONFIG_CONSOLE_DEV		"ttymxc0"
